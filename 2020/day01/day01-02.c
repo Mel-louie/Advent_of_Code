@@ -1,6 +1,8 @@
-/* + - + - + - +  - + - + - + - + - + - + */
-/*  Find the two entries that sum to 2020 */
-/* + - + - + - +  - + - + - + - + - + - + */
+/* + - + - + - + - + - + - + - + - + - + - + */
+/*  Find the three entries that sum to 2020  */
+/*  the only function i've change is         */
+/*  calc_input()                             */
+/* + - + - + - + - + - + - + - + - + - + - + */
 
 #include <stdio.h>
 #include <unistd.h>
@@ -101,13 +103,24 @@ int	calc_input(tab *t)
 {
 	int i = 0;
 	int j = t->count - 1;
+    int k;
+    int sum;
 
 	while (t->stock[i])
 	{
 		while (j > i)
 		{
-			if (((*t->stock[i]) + (*t->stock[j])) == 2020)
-				return ((*t->stock[i]) * (*t->stock[j]));
+            if (((*t->stock[i]) + (*t->stock[j])) < 2020)
+            {
+                sum = (*t->stock[i]) + (*t->stock[j]);
+                k = j;
+                while (k < t->count)
+                {
+                    if ((*t->stock[k]) + sum == 2020)
+                        return ((*t->stock[i]) * (*t->stock[j]) * (*t->stock[k]));
+                    k++;
+                }
+            }
 			j--;
 		}
 		j = t->count - 1;
@@ -115,15 +128,6 @@ int	calc_input(tab *t)
 	}
 	return (0);
 }
-
-/*
-** Step by step:
-** - Open the file input;
-** - Parse the file and create a list, line by line (create_list());
-** - Stock this list in a array (stock_list());
-** - Calculate int of the array to find two wich sum is equal to 2020;
-** - Delete the list and free the array, close the file.
-*/
 
 int     main(void)
 {
