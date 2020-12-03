@@ -2,5 +2,8 @@
 Here find my 1st Advent of Code.
 I hope I'll success 'til Christmas Day! :christmas_tree:
 
-<img src="./img.png"
-     alt="screeshot of the calendar">
+**--- Day 1: Report Repair ---**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark:
+
+**--- Day 2: Password Philosophy ---**&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark:
+
+**--- Day 3: Toboggan Trajectory ---**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark:
