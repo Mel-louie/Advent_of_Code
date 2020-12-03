@@ -118,6 +118,6 @@ int		main(void)
 	printf("Valid passwords: %d\n", valid_psswrd);
 	s.psswrd = free_null(s.psswrd);
 	line = free_null(line);
-	system("leaks a.out");
+//	system("leaks a.out");
 	return (0);
 }

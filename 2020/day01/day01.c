@@ -147,6 +147,6 @@ int     main(void)
 	free(t.stock);
 	t.stock = NULL;
     fclose(file);
-	system("leaks a.out");
+//	system("leaks a.out");
     return (0);
 }
