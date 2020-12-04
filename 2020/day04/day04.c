@@ -39,12 +39,6 @@ void	init_passeport(t_pssprt *p)
 	p->cid = 0;
 }
 
-int		is_valid_passport()
-{
-
-	return (0);
-}
-
 int		main(int argc, char **argv)
 {
 	int			fd = open(argv[1], O_RDONLY);
