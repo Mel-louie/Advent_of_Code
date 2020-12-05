@@ -7,3 +7,7 @@ I hope I'll success 'til Christmas Day! :christmas_tree:
 **--- Day 2: Password Philosophy ---**&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark:
 
 **--- Day 3: Toboggan Trajectory ---**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark:
+
+**--- Day 4: Passport Processing ---**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark:
+
+**--- Day 5: Binary Boarding ---**
